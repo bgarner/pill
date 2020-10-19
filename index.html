@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Main Page</title>
+    <link rel="stylesheet" type="text/css" href="/style.css">
+    <script src="https://unpkg.com/pill@1.0.2/dist/pill.min.js" integrity="sha384-kEo51KONVSr/VvbcOp6TidWUEYsfrZt9Eifn1KBxZL5eVdJL/HFufWTttVa5A1Xt" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div id="indicator" class="" style="display: none;"></div>
+    <!-- PAGE CONTENT START -->
+    <div id="page">
+      <nav>
+        <a href="/">Home</a>
+        <a href="/pages/a">Page A</a>
+        <a href="/pages/b">Page B</a>
+        <a href="/pages/not-exists">Not existing page</a>
+      </nav>
+      
+      <h1>Main page</h1>
+      <p>
+        ⚠️ Look at the page top. There will be displayed blinking loading indicator, when you will click
+        a link.
+      </p>
+      <p>
+        This is a demostration of how anchors works. Here an <a href="#anchor">anchor link</a>.
+      </p>
+      <div style="height: 100vh"></div>
+      <p>
+        </p><h3>Anchor</h3>
+        <a name="anchor"></a>
+        <p>
+          Goto <a href="/pill/pages/a">Page A</a> and use history to go back and ensure scroll position get restored.
+        </p>
+      <p></p>
+    </div>
+    <!-- PAGE CONTENT END -->
+    <script src="/site.js" type="module"></script>
+  
+
+</body></html>
